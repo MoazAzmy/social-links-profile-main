@@ -1,0 +1,70 @@
+body{
+  background-color: black;
+  font-family: inter;
+}
+
+.container{
+  background-color: hsl(0, 0%, 8%);
+  width: 25%;
+  height: 95%;
+  color: white;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.avatar{
+  margin: 0 auto;
+  width: 30%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+img{
+  width: 75px;
+  height: 75px;
+  border-radius: 50px; 
+}
+.profile{
+  font-size: 14px;
+  text-align: center;
+}
+h1{
+  margin-bottom: 0;
+}
+h2{
+  margin-top: 5px;
+  font-size: 14px;
+  color: hsl(75, 94%, 57%);
+}
+p{
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+.links{
+  margin-top: 25px;
+  margin-left: 10px;
+  align-content: center;
+}
+button{
+  background-color: hsl(0, 0%, 12%);
+  color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 7px;
+  border-style: none;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 14px;
+  font-weight:600;
+}
+button:hover{
+  background-color: hsl(75, 94%, 57%);
+}
+
+@font-face {
+  font-family: inter;
+  src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
